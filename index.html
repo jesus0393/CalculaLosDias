@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de dias</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container text-center my-4">
+        <h1>Calculadora de dias en fin de semana</h1>
+
+        <div class="row">
+            <div class="col">
+            </div>
+            <div class="col-6 my-4 border border-success p-2 mb-2 rounded text-left">
+                <div class="mb-3">
+                    <label for="dia" class="form-label">Ingresa el dia:</label>
+                    <input type="number" class="form-control" id="dia" placeholder="Dia">
+                </div>
+                <div class="mb-3">
+                    <label for="mes" class="form-label">Ingresa el mes:</label>
+                    <input type="number" class="form-control" id="mes" placeholder="Mes">
+                </div>
+                <div class="mb-3">
+                    <label for="anio" class="form-label">Ingresa el año:</label>
+                    <input type="number" class="form-control" id="anio" placeholder="Año">
+                </div>
+                <div class="text-center">
+                    <button type="button" class="btn btn-primary w-75" onclick="calcularFecha()">Calcular</button>
+                </div>
+                <div id="resultado">
+                    
+                </div>
+                
+                  
+            </div>
+            <div class="col">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
